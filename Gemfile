@@ -1,5 +1,6 @@
 source "http://rubygems.org"
 
+gem "okcomputer-core", path: '../okcomputer-core'
 case ENV['RAILS_VERSION'];
 when /3.2/
   gem "rails", "~> 3.2.0"
